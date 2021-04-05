@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 33" width="31" height="33">
+	<defs>
+		<image width="34" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAABJUlEQVRYR+2WQWrCQBSGvzG4UaSCFAou1Bu0N/Am6g30Bj2CPYF6Er2B9gZdtJuKGBcqKFGZDEHJwtHMGEUmu5eZvHz5/5+XETzIJSTHfo93Lx4hCOS7FchfWGTuASPKisGBROo7ReI5dIo4RXSz6Qkz4lUh+Dl+eLzWSGJHkew7lIawHsCiDbkmFHuw6MCyq3MlXDcHiSDkX2JWB1lLiO23qnd+CiCWIMwUsQhhBvLmQ+YFph9K+texsuG/drEdp54lz0ixD7kGrPrgtyBeX5SM46bkILKHRRgzEIsw5iCnMMsvNUcipVKdI5HN+TZsRrCdqDuFTzXMUpkjVwby3HY71lgAciDuhKaLkcuIy8h1GfmlRMBO99At1kWFeXhAukXzJD0PWuO5JBAOHwAAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Clients">
+		<g id="Logo Set">
+			<g id="Navigations">
+				<g id="Left ">
+					<use id="Left Arrow" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

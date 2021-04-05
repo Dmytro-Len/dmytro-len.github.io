@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 39" width="38" height="39">
+	<defs>
+		<image width="40" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAApCAYAAABHomvIAAABt0lEQVRYR+2YsVEDMRBF/68AdwAdQESKSUkwHdgVABVgOqAEqABHBCQ2KRGuAFwBUMEy/5AZjed0J0s23AzaEE6n57erXc0RHQ8u+czsEMBJh3gfSD5XgA7uEcBOhwA/SfaWgGMAVyR/jP41qJmZeApgaiaKwVRzXlcpNZglsdRglr7v4VFqUBYGAPYBzEg+eSe0R/KjyXKWQTMbk9R4rA0z2wNwD+DAe2AGYALgDMBga4Bu81cAtyRHdYRmJpijAL9+2JykYIORbNAD1MtfAFySFFAVZtYD8N6w9xxAf2sGHcQbgF0PQqA3APR3XUCmIcDYG1OOQRnqK8Up98ffAmxKYVNpVZfQmB6ZbNClWAV+GrPRyjN3JIcx63IBZUGQoZMaYhiRVGm0Rhags6hDIYvqeTGxIBn7bP6oc1NCzTg2jv121LYo26CzqNN84SaG33ZW979umjx1sJsCVC2eAwiOPdfIVQ5rRTKgmyQCkjEZDMUCwHCdtPovSgZ0qVWxL1Prn2SNMU2VSdusbdOZBdj28k38vwDmWiwGi8FcA7nrSw3+O4P6gN7db9Ruvnb3K39uvWxz/Reb0ZI5PxdIxAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="About Us">
+		<g id="Team">
+			<g id="Expand">
+				<g id="Social Icons">
+					<g id="Twitter">
+						<use id="Icon" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

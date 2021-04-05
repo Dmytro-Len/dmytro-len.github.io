@@ -1,0 +1,16 @@
+.footer {
+    height: 178px;
+    padding-top: 26px;
+    background-color: $main-color;
+    &-scroll {
+        display: block;
+        width: 62px;
+        margin: 0 auto;
+    }
+
+}
+
+.social {
+    width: 200px;
+    margin: 25px auto 30px;
+}

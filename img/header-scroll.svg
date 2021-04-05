@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 62" width="60" height="62">
+	<defs>
+		<image width="63" height="64" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABACAYAAACtK6/LAAACEUlEQVR4Xu2ZX07CQBCHf63y4p+IIeqDL3AC9QZ6Ez2BRzAewRPoTfQI3AB88EEMCWr0hQBm2mxo6tJuU3dq6a8vJHQH5pud/YbQAA2+AmFfLBA2qQZBgLnwxvAvmALYbEoBguOYm/DcebZ9M049zzyFx1HHOc8fOU3wPW1P29P2tD1tT9uveQU46jjqOOo46jjq1lz0EZ6O7VunwO4N8HkLTPvF6iqx29fA113x2Jxv8g8ftoHDASCv8wkwvnCHEPDO4zJ21Is/448uJfghEO7FKbsWIAkexb0Do27N4CXxCOTJvQA28PG5e8c4dob/nTeJuBZACVxPeK4FUATXh886AnLPyM2ccQ+tnjwROm0vpjfjSoRnOwKSlaxLg6djHc+zyzId+IM+0DqJhSWjzlYAk61Y3ey4gEs3SLEk9u3Mhcl5jX/4jS5wNFgmlFWAVeAm+rUHzIbOcHkL/cNLBluXQPs+uwBy17bjJmpyBXw/5PEUuq8Dn1cA6Q65ZFeTre4RXN/2WR1ghGfOuGdwffisDjCjTuSmAF4N/KoCyPuK4NXB2wqQVJUHudlMqCc827enHSBrlMCr3XlTjGQBFMH/B3zyrBf9l6fQVP+9uNq2L5l82XDC84kNn9jwiQ2f2JQ1aR3iaXvanran7Wn7Oti6bI60PW1P2zfZ9s/Yxw5mZUVSl/igg4/o76y6JOwjzx/pFnlQv9D9uQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Landing Page">
+		<g id="Move Down Icon">
+			<use id="Arrows" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+		</g>
+	</g>
+</svg>

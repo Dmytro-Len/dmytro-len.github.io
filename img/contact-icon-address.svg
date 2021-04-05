@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 29" width="34" height="29">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffe600 } 
+	</style>
+	<g id="Contact Us">
+		<g id="Info">
+			<g id="Address">
+				<path id="Icon" class="shp0" d="M33.95 17.02L27.96 11.35L27.96 1.05L22.98 1.01L22.98 6.47L16.97 0.01L0.02 17.02L0.05 17.99L4.06 17.96L4.03 28.96L14.93 28.96L14.93 22L19.04 21.97L19.01 28.99L29.97 28.96L30 17.96L33.98 17.99L33.95 17.02Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 33" width="31" height="33">
+	<defs>
+		<image width="34" height="35" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAABLUlEQVRYR+2WX2oCMRCHv7gIRRCWSqHQBz2CR/AGPYJ6A3uC9gj1BHoD9wYeQY/ggz5Kdx8sgqyW2bCsiJBuE/9QkrchIb8vvxkmo7iTpYTjcCC4FY9SpKKtQVZZULkFjHrRDB4kd987clqH3hHviKk3/ZMaCVqQLorHVkLYx6bHn923c+Q5hu0E4j4I1NMMtpGOSy47kFoPwhF8j7V4OIZat4hLwNiBiJAjGHsQRzBuQASm/gH1d9gMIRnAYwQPr5C8webTmCQ3INU2NKZ6mlh3tOhxvJtfAcQBRDYQWQ1GjiDsQaSPyJJ0SCOTPpKn5xfpOM6XnSNSoNLActHT2FgZxQE7kBJCpqMexA9GvkZMDvgaMTl0p31kSYOUvYn+EvuqyVf2+V3i8r/c+QPihbMkCdd5EQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Clients">
+		<g id="Logo Set">
+			<g id="Navigations">
+				<g id="Right">
+					<use id="Right Arrow " href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

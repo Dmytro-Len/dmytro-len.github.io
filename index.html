@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Build your projects">
+    <meta name="keywords" content="develop, enjoy, web-design">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SMAK - #1 Web-Design Studio">
+    <meta property="og:description" content="Let's create your first project with us!">
+    <meta property="og:image"
+        content="https://images.yourstory.com/cs/wordpress/2016/11/leadership-lessons-from-travelling.jpg">
+    <meta property="og:url" content="http://2408.fun/">
+    <meta property="og:site_name" content="SMAK">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SMAK - #1 Web-Design Studio</title>
+</head>
+
+<body>
+    <nav class="nav">
+            <div class="nav__logo">
+                <img src="./img/header-logo.png" alt="logo">
+            </div>
+            <div class="nav__item">
+                <a href="#home">Home</a>
+            </div>
+            <div class="nav__item">
+                <a href="#services">Services</a>
+            </div>
+            <div class="nav__item">
+                <a href="#work">Work</a>
+            </div>
+            <div class="nav__item">
+                <a href="#clients">Clients</a>
+            </div>
+            <div class="nav__item">
+                <a href="#contact">Contact</a>
+            </div>
+    </nav>
+    <header id="home" class="header">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/header-slide-1.jpg" class="d-block w-100" alt="slide-1">
+                    <h1 class="header__title">branding have another definition</h1>
+                    <button type="button" class="btn btn-lg btn--header">buy it now</button>
+                    <img src="./img/header-scroll.svg" class="header-scroll" alt="header-scroll">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/header-slide-2.jpg" class="d-block w-100" alt="slide-2">
+                    <h1 class="header__title title--dark">providing best service for you</h1>
+                    <button type="button" class="btn btn-lg btn--header">buy it now</button>
+                        <img src="./img/header-scroll.svg" class="header-scroll" alt="header-scroll">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/header-slide-3.jpg" class="d-block w-100" alt="slide-3">
+                    <h1 class="header__title">change the world with our team</h1>
+                    <button type="button" class="btn btn-lg btn--header">buy it now</button>
+                        <img src="./img/header-scroll.svg" class="header-scroll" alt="header-scroll">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </header>
+    <section id="services" class="section services">
+        <div class="container">
+            <h4 class="section__pretitle">our services</h4>
+            <h3 class="section__title animate__animated animate__bounce">what we love to do</h3>
+            <div class="line"></div>
+            <p class="services__desc text">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
+                suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla
+                porttitor
+                accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl
+                tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellen
+                tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+            <div class="arguements">
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 107" width="106" height="107">
+                        <defs>
+                            <image width="108" height="109" id="img1"
+                                href="data:image/png;base64,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" />
+                        </defs>
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="Service 1">
+                                <use id="Icon" href="#img1" transform="matrix(1,0,0,1,-1,-1)" />
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md">web design</h4>
+                    <p class="text">Donec sollicitudin molestie malesuada. Curabitur
+                        aliquet quam id dui posuere blandit.</p>
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 107" width="106" height="107">
+                        <defs>
+                            <image width="108" height="109" id="img1"
+                                href="data:image/png;base64,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" />
+                        </defs>
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="Service 2">
+                                <use id="Icon" href="#img1" transform="matrix(1,0,0,1,-1,-1)" />
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md">graphic design</h4>
+                    <p class="text">Donec sollicitudin molestie malesuada. Curabitur
+                        aliquet quam id dui posuere blandit.</p>
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 107" width="106" height="107">
+                        <defs>
+                            <image width="108" height="109" id="img1"
+                                href="data:image/png;base64,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" />
+                        </defs>
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="Service 3">
+                                <use id="Icon" href="#img1" transform="matrix(1,0,0,1,-1,-1)" />
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md">photography</h4>
+                    <p class="text">Donec sollicitudin molestie malesuada. Curabitur
+                        aliquet quam id dui posuere blandit.</p>
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 107" width="106" height="107">
+                        <defs>
+                            <image width="108" height="109" id="img1"
+                                href="data:image/png;base64,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" />
+                        </defs>
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="Service 4">
+                                <use id="Icon" href="#img1" transform="matrix(1,0,0,1,-1,-1)" />
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md">developing</h4>
+                    <p class="text">Donec sollicitudin molestie malesuada. Curabitur
+                        aliquet quam id dui posuere blandit.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="work" class="section tools">
+        <h3 class="section__title active">how we do it</h3>
+        <p class="services__desc">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit
+            tortor eget felis porttitor volutpat. </p>
+        <div class="container">
+            <div class="arguements start">
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 45" width="42" height="45">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Analyse">
+                                        <path id="Icon" class="shp0"
+                                            d="M40.06 35.3L26.97 12.17L27 2.81L27.73 2.81C28.5 2.81 29.12 2.17 29.12 1.4C29.12 0.63 28.5 0 27.73 0L13.86 0C13.1 0 12.48 0.63 12.48 1.4C12.48 2.17 13.1 2.81 13.86 2.81L14.97 2.81L15 12.17L1.54 35.3C-1.6 40.6 0.83 44.93 6.93 44.93L34.67 44.93C40.77 44.93 43.19 40.6 40.06 35.3M9.08 27.96L17.99 12.94L17.99 2.99L24.01 2.99L24.01 12.94L32.45 27.96L9.08 27.96Z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">analyze</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. Cura
+                        bitur aliquet quam.</p>
+
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 44" width="43" height="45">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Preparing">
+                                        <path id="Icon" class="shp0"
+                                            d="M38.09 -0.01L40.98 24.54L37.73 24.92L35.15 3L7.78 3L5.2 24.92L1.95 24.54L4.85 -0.01L38.09 -0.01ZM11 4.95L31.97 4.95L32.01 7.99L11 8.07L11 4.95ZM11.02 10.99L32.04 10.99L32.01 14.02L10.99 13.98L11.02 10.99ZM11.02 16.98L32.01 16.98L32.01 20.01L10.99 20.04L11.02 16.98ZM10.96 21.98L32.01 21.98L32.04 25.04L10.99 25.01L10.96 21.98ZM41.86 28.04L0.83 27.98C0.07 27.98 -0.2 28.81 0.04 29.53L4.52 42.66C4.76 43.38 5.57 43.97 6.33 43.97L36.6 43.97C37.36 43.97 38.17 43.38 38.41 42.66L42.95 29.4C43.19 28.69 42.71 27.98 41.95 27.98M27 32.97L15.96 32.97L15.99 29.97L26.97 29.97L27 32.97Z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">preparing</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. Cura
+                        bitur aliquet quam id dui posu
+                        ere blandit</p>
+
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 42" width="44" height="42">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Working">
+                                        <path id="Icon" class="shp0"
+                                            d="M43.36 33.54L30.37 20.55C29.57 19.75 28.25 19.75 27.45 20.55L26.48 21.53L18.55 13.61L31.92 0.03L18.19 0.03L11.66 6.72L11.09 5.95L8.01 5.99L8.04 8.94L8.74 9.64L-0.13 18.51L6.76 25.4L15.63 16.53L23.55 24.45L22.58 25.42C21.77 26.23 21.77 27.54 22.58 28.35L35.56 41.33C36.37 42.13 37.68 42.13 38.48 41.33L43.35 36.46C44.16 35.66 44.16 34.34 43.36 33.54" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">working</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. </p>
+
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 45" width="44" height="45">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Finalyse">
+                                        <path id="Icon" class="shp0"
+                                            d="M40.14 26.87C37.83 22.78 39.22 17.54 43.25 15.16L38.92 7.5C37.68 8.24 36.24 8.66 34.7 8.66C30.07 8.66 26.32 4.81 26.32 0.05L17.66 0.05C17.67 1.52 17.31 3.01 16.54 4.37C14.23 8.46 9.09 9.85 5.05 7.48L0.72 15.14C1.96 15.87 3.05 16.92 3.81 18.28C6.12 22.36 4.74 27.59 0.73 29.98L5.06 37.64C6.29 36.91 7.72 36.49 9.25 36.49C13.87 36.49 17.61 40.32 17.63 45.06L26.3 45.06C26.29 43.6 26.65 42.13 27.42 40.78C29.72 36.7 34.85 35.31 38.88 37.66L43.22 30C41.98 29.28 40.91 28.22 40.14 26.87M21.98 31.67C17.06 31.67 13.06 27.59 13.06 22.55C13.06 17.52 17.06 13.44 21.98 13.44C26.91 13.44 30.91 17.52 30.91 22.55C30.91 27.59 26.91 31.67 21.98 31.67" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">finalyze</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. Cura
+                        bitur aliquet quam id.</p>
+
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 41" width="40" height="45">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Testing">
+                                        <path id="Icon" class="shp0"
+                                            d="M14.75 5.5C14.75 8.52 17.2 10.97 20.22 10.97C23.24 10.97 25.69 8.52 25.69 5.5C25.69 2.48 23.24 0.03 20.22 0.03C17.2 0.03 14.75 2.48 14.75 5.5M26.36 10.31C26.36 13.33 28.8 15.78 31.83 15.78C34.85 15.78 37.3 13.33 37.3 10.31C37.3 7.29 34.85 4.84 31.83 4.84C28.8 4.84 26.36 7.29 26.36 10.31M33.9 21.91C33.9 23.42 35.12 24.65 36.63 24.65C38.14 24.65 39.37 23.42 39.37 21.91C39.37 20.4 38.14 19.18 36.63 19.18C35.12 19.18 33.9 20.4 33.9 21.91M29.09 33.52C29.09 35.03 30.32 36.25 31.83 36.25C33.34 36.25 34.56 35.03 34.56 33.52C34.56 32.01 33.34 30.78 31.83 30.78C30.32 30.78 29.09 32.01 29.09 33.52M17.49 38.32C17.49 39.83 18.71 41.06 20.22 41.06C21.73 41.06 22.96 39.83 22.96 38.32C22.96 36.81 21.73 35.59 20.22 35.59C18.71 35.59 17.49 36.81 17.49 38.32M5.88 33.52C5.88 35.03 7.11 36.25 8.62 36.25C10.13 36.25 11.35 35.03 11.35 33.52C11.35 32.01 10.13 30.78 8.62 30.78C7.11 30.78 5.88 32.01 5.88 33.52M4.51 10.31C4.51 12.57 6.35 14.41 8.62 14.41C10.88 14.41 12.72 12.57 12.72 10.31C12.72 8.04 10.88 6.21 8.62 6.21C6.35 6.21 4.51 8.04 4.51 10.31M0.73 21.91C0.73 23.61 2.11 24.99 3.81 24.99C5.51 24.99 6.89 23.61 6.89 21.91C6.89 20.21 5.51 18.84 3.81 18.84C2.11 18.84 0.73 20.21 0.73 21.91" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">testing</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. Cura
+                        bitur aliquet quam id dui posu
+                        ere blandit</p>
+
+                </div>
+                <div class="arguements__item">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 36" width="45" height="45">
+                        <style>
+                            tspan {
+                                white-space: pre
+                            }
+
+                            .shp0 {
+                                fill: #ffe600
+                            }
+                        </style>
+                        <g id="Services">
+                            <g id="How We Do It">
+                                <g id="Progress">
+                                    <g id="Deliver">
+                                        <path id="Icon" class="shp0"
+                                            d="M45.01 19.04L39.05 7.99L31 8.02L31 2.76C31 1.24 29.41 -0.01 27.87 -0.01L2.73 -0.01C1.2 -0.01 0.03 1.3 0.03 2.82L0 24.88L2.61 26.99L6.49 27.02C6.02 27.83 5.52 29.4 5.52 30.41C5.52 33.46 8.03 35.94 11.11 35.94C14.2 35.94 16.7 33.46 16.7 30.41C16.7 29.4 16.58 27.8 16.11 26.99L31.57 27.02C31.09 27.83 30.67 29.4 30.67 30.41C30.67 33.46 33.17 35.94 36.25 35.94C39.34 35.94 41.84 33.46 41.84 30.41C41.84 29.4 41.5 27.83 41.03 27.02L45.01 26.99L45.01 19.04ZM31.07 17.99L31.04 11.06L36.05 11L39.95 17.99L31.07 17.99Z" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <h4 class="section__title--md light">deliver</h4>
+                    <p class="text light">Vivamus suscipit tortor eget
+                        felis porttitor volutpat. Cur
+                        est bitur.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section team">
+        <h3 class="section__title">the team</h3>
+        <p class="services__desc">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit
+            tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+        <div class="arguements">
+            <div class="arguements__item">
+                <img src="./img/team-kimberly-fox.jpg" width="100%" alt="kimberly-fox">
+                <h4 class="section__title--md active">kimberly fox</h4>
+                <p class="text">CREATIVE DIRECTOR</p>
+            </div>
+            <div class="arguements__item">
+                <img src="./img/team-rico-massimo.jpg" width="100%" alt="rico massimo">
+                <h4 class="section__title--md active">rico massimo</h4>
+                <p class="text">ART DIRECTOR</p>
+            </div>
+            <div class="arguements__item">
+                <img src="./img/team-samantha-law.jpg" width="100%" alt="samsntha-law">
+                <h4 class="section__title--md active">samantha law</h4>
+                <p class="text">WEB DEVELOPER</p>
+            </div>
+            <div class="arguements__item">
+                <img src="./img/team-uku-mason.jpg" width="100%" alt="uku-mason">
+                <h4 class="section__title--md active">uku mason</h4>
+                <p class="text">PHOTOGRAPHER</p>
+            </div>
+        </div>
+    </section>
+    <section id="clients" class="section clients">
+        <h4 class="section__pretitle">our clients</h4>
+        <h3 class="section__title">who love to work with us</h3>
+        <div class="line"></div>
+        <p class="services__desc">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit
+            tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor
+            accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus
+            convallis quis ac lectus. Praesent sapien massa, convallis a pellen
+            tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+        <div class="arguements clients__arguements">
+            <div class="arguements__item">
+                <img src="./img/partners-logo1.svg" width="100%" alt="partner1">
+            </div>
+            <div class="arguements__item">
+                <img src="./img/partners-logo2.svg" width="100%" alt="partner2">
+            </div>
+            <div class="arguements__item">
+                <img src="./img/partners-logo3.svg" width="100%" alt="partner3">
+            </div>
+            <div class="arguements__item">
+                <img src="./img/partners-logo4.svg" width="100%" alt="partner4">
+            </div>
+            <div class="arguements__item">
+                <img src="./img/partners-logo5.svg" width="100%" alt="partner5">
+            </div>
+            <div class="arguements__item">
+                <img src="./img/partners-logo6.svg" width="100%" alt="partner6">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section contact">
+        <h3 class="section__title light">send us a message</h3>
+        <div class="services__desc light">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus
+            suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.
+        </div>
+        <div class="container">
+            <form action="#" class="contact-form">
+                <div class="wrapper">
+                    <label for="name"></label>
+                    <input type="text" maxlength="20" placeholder="Your Name..." required>
+                    <label for="mail"></label>
+                    <input type="email" maxlength="30" placeholder="Your Email..." required>
+                    <label for="subject"></label>
+                    <input type="text" maxlength="14" placeholder="Subject" required>
+                </div>
+                <textarea name="message" id="message" cols="30" maxlength="200" rows="10"
+                    placeholder="Enter Message Here..." required></textarea>
+            </form>
+            <button type="button" class="btn btn-lg btn-footer">send a message</button>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <h6 class="text light">© Copyright 2013 <span class="active">Smak.</span> All Rights Reserved.</h6>
+        <div class="container">
+            <div class="arguements social">
+                <div class="arguements__item">
+                    <img src="./img/social-facebook.svg" alt="facebook">
+                </div>
+                <div class="arguements__item">
+                    <img src="./img/social-dribble.svg" alt="dribble">
+                </div>
+                <div class="arguements__item">
+                    <img src="./img/social-twitter.svg" alt="twitter">
+                </div>
+                <div class="arguements__item">
+                    <img src="./img/social-google.svg" alt="google">
+                </div>
+            </div>
+        </div>
+        <div id="top-scroll">
+            <img src="./img/footer-scroll.svg" class="footer-scroll" alt="header-scroll">
+        </div>
+    </footer>
+
+<script src="./js/jquery.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+
+</html>

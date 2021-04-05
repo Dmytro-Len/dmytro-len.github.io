@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffe600 } 
+	</style>
+	<g id="Portfolio">
+		<g id="Expand">
+			<g id="Text">
+				<path id="X Icon" class="shp0" d="M1.7 13.57L-0.01 11.86L3.62 8.23L5.06 6.79L3.62 5.35L-0.01 1.72L1.7 0L5.33 3.63L6.78 5.07L8.22 3.63L11.85 0L13.56 1.72L9.93 5.35L8.49 6.79L9.93 8.23L13.56 11.86L11.85 13.57L8.22 9.94L6.78 8.5L5.33 9.94L1.7 13.57L1.7 13.57Z" />
+			</g>
+		</g>
+	</g>
+</svg>
